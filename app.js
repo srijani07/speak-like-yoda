@@ -20,6 +20,7 @@ function clickHandler() {
         var translatedText = json.contents.translated; //storing the translated sentence
         outputDiv.innerText = translatedText; 
 })
+.catch(errorHandler);
 
 }
 
